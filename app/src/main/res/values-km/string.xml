@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <string name="app_name">កម្មវិធីតាមដានចំណាយ</string>
+    <string  name="enxpens_tracker">កម្មវិធីតាមដានចំណាយ</string>
+    <string name="amount">ចំនួន</string>
+    <string name="usd">ដុល្លារអាមេរិក</string>
+    <string name="khr">រៀល</string>
+    <string name="category_hint">ប្រភេទ</string>
+    <string name="remark">ការកំណត់</string>
+
+    <string name="remark_hint">ការកំណត់</string>
+    <string name="add_expense">បន្ថែមចំណាយ</string>
+</resources>

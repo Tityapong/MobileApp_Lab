@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">lab2</string>
+    <string name="enxpens_tracker">Enxpens Tracker</string>
+    <string name="amount">Amount</string>
+    <string name="usd">Usd</string>
+    <string name="khr">Khr</string>
+    <string name="category_hint">category_hint</string>
+    <string name="add_category_description">add_category_description</string>
+    <string name="remark_hint">remark_hint</string>
+    <string name="add_expense">add_expense</string>
+    <string name="remark">Remark</string>
+    <string name="manage_your_expense_tityapong">Manage Your Expense Tityapong</string>
+    <string name="my_last_expense_was_0">My last expense was 0</string>
+    <string name="add_new_expense">Add New Expense</string>
+    <string name="view_detail">View Detail</string>
+    <string name="expense_details">Expense Details</string>
+    <string name="currency">Currency:</string>
+    <string name="category">Category:</string>
+    <string name="expenses">Expenses</string>
+    <string name="home">Home</string>
+
+    <string-array name="categories_array">
+        <item>@string/category_hint</item> <!-- This will be our "hint" or placeholder -->
+        <item>Food</item>
+        <item>Entertainment</item>
+        <item>Travel</item>
+        <item>Utilities</item>
+        <item>Other</item>
+    </string-array>
+</resources>
+

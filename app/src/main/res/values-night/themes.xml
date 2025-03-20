@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme for dark mode. -->
+    <style name="Base.Theme.Lab2" parent="Theme.Material3.Dark.NoActionBar">
+        <!-- Customize your dark theme here. -->
+        <item name="colorPrimary">@color/my_dark_primary</item>
+        <item name="colorOnPrimary">@color/my_dark_onPrimary</item>
+        <item name="colorSecondary">@color/my_dark_secondary</item>
+        <item name="colorOnSecondary">@color/my_dark_onSecondary</item>
+        <item name="android:colorBackground">@color/my_dark_background</item>
+        <item name="android:textColor">@color/my_dark_onBackground</item>
+    </style>
+
+    <style name="Theme.Lab2" parent="Base.Theme.Lab2" />
+</resources>

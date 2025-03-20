@@ -1,0 +1,15 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme for light mode. -->
+    <style name="Base.Theme.Lab2" parent="Theme.Material3.Light.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <item name="colorPrimary">@color/my_light_primary</item>
+        <item name="colorOnPrimary">@color/my_light_onPrimary</item>
+        <item name="colorSecondary">@color/my_light_secondary</item>
+        <item name="colorOnSecondary">@color/my_light_onSecondary</item>
+        <item name="android:colorBackground">@color/my_light_background</item>
+        <item name="colorOnSurface">@color/my_light_onBackground</item> <!-- Changed to colorOnSurface -->
+        <!-- Add more customizations as needed -->
+    </style>
+
+    <style name="Theme.Lab2" parent="Base.Theme.Lab2" />
+</resources>

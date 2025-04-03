@@ -1,31 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">lab2</string>
+    <!-- Application Info -->
+    <string name="app_name">MyLoginApp</string>
+    <string name="app_logo">App Logo</string>
     <string name="enxpens_tracker">Enxpens Tracker</string>
+
+    <!-- General Text -->
     <string name="amount">Amount</string>
     <string name="usd">Usd</string>
     <string name="khr">Khr</string>
-    <string name="category_hint">category_hint</string>
-    <string name="add_category_description">add_category_description</string>
-    <string name="remark_hint">remark_hint</string>
-    <string name="add_expense">add_expense</string>
     <string name="remark">Remark</string>
-    <string name="manage_your_expense_tityapong">Manage Your Expense Tityapong</string>
-    <string name="my_last_expense_was_0">My last expense was 0</string>
-    <string name="add_new_expense">Add New Expense</string>
-    <string name="view_detail">View Detail</string>
-    <string name="expense_details">Expense Details</string>
     <string name="currency">Currency:</string>
     <string name="category">Category:</string>
     <string name="expenses">Expenses</string>
     <string name="home">Home</string>
 
+    <!-- Expense-related -->
+    <string name="category_hint">Select a category</string>
+    <string name="add_category_description">Add category description</string>
+    <string name="remark_hint">Enter remark</string>
+    <string name="add_expense">Add Expense</string>
+    <string name="manage_your_expense_tityapong">Manage Your Expense Tityapong</string>
+    <string name="my_last_expense_was_0">My last expense was 0</string>
+    <string name="add_new_expense">Add New Expense</string>
+    <string name="view_detail">View Detail</string>
+    <string name="expense_details">Expense Details</string>
+
+    <!-- Login/Sign-in -->
+    <string name="sign_in">Sign In</string>
+    <string name="login">Login</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="login_here">Login Here</string>
+    <string name="welcome_msg">Welcome!</string>
+
+    <!-- Registration -->
+    <string name="create_account">Create Account</string>
+    <string name="full_name">Full Name</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="register">Register</string>
+    <string name="create_new_account">Create New Account</string>
+    <string name="forget_your_password">Forgot Your Password?</string>
+
+    <!-- Bottom/Alternate navigation -->
+    <string name="no_account">Don\'t have an account?</string>
+    <string name="register_now">Register Now</string>
+    <string name="already_have_account">Already have an account?</string>
+    <string name="login_now">Login Now</string>
+    <string name="create_an_account_so_you_can_explore_all_the_existing_jobs">Create an account so you can explore all the existing jobs.</string>
+
+    <!-- Categories Array -->
     <string-array name="categories_array">
-        <item>@string/category_hint</item> <!-- This will be our "hint" or placeholder -->
+        <item>@string/category_hint</item> <!-- Placeholder -->
         <item>Food</item>
         <item>Entertainment</item>
         <item>Travel</item>
         <item>Utilities</item>
         <item>Other</item>
     </string-array>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>
-

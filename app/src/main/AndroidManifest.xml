@@ -2,7 +2,11 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools">
 
+    <!-- Permissions -->
+    <uses-permission android:name="android.permission.INTERNET" />
+
     <application
+        android:networkSecurityConfig="@xml/network_security_config"
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
         android:fullBackupContent="@xml/backup_rules"
@@ -13,21 +17,9 @@
         android:theme="@style/Theme.Lab2"
         tools:targetApi="31">
 
-        <!-- Declare other activities -->
+        <!-- MainActivity: Launcher activity that checks if the token exists -->
         <activity
             android:name=".MainActivity"
-            android:exported="false" />
-
-        <activity
-            android:name=".Viewaddexpense"
-            android:exported="false" />
-
-        <activity
-            android:name=".addexpense"
-            android:exported="false" />
-
-        <activity
-            android:name=".HomeActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -35,7 +27,28 @@
             </intent-filter>
         </activity>
 
-        <!-- Add this activity declaration for DetailExpenseActivity -->
+        <!-- LoginActivity: If no token exists, show the login activity -->
+        <activity
+            android:name=".LoginActivity"
+            android:exported="true" />
+
+        <!-- HomeActivity: Show the home activity if the token exists -->
+        <activity
+            android:name=".HomeActivity"
+            android:exported="true" />
+
+        <!-- RegisterActivity: Activity for registering a new account -->
+        <activity
+            android:name=".RegisterActivity"
+            android:exported="false" />
+
+        <!-- Other activities -->
+        <activity
+            android:name=".Viewaddexpense"
+            android:exported="false" />
+        <activity
+            android:name=".addexpense"
+            android:exported="false" />
         <activity
             android:name=".fragment.DetailExpenseActivity"
             android:exported="false" />

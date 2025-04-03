@@ -11,6 +11,10 @@
     <color name="my_light_background">#FFFFFF</color>
     <color name="my_light_onBackground">#000000</color>
 
+    <color name="primary">#1F41BB</color>
+    <color name="colorFocus">#673AB7</color>
+
+
 
     <color name="colorPrimary">#6200EE</color>  <!-- Purple color as primary color -->
 

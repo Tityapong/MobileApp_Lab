@@ -1,4 +1,4 @@
-# Lab2 Android Project
+# Mobile App Lab
 
 This is an Android project demonstrating user registration, login functionality, and token management using Retrofit for API communication. After successful registration, the user is redirected to the login screen.
 

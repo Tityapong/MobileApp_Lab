@@ -27,5 +27,5 @@ Follow these steps to get the project up and running:
 First, clone this repository to your local machine:
 
 ```bash
-git clone https://github.com/yourusername/lab2.git
+git clone https://github.com/Tityapong/MobileApp_Lab.git
 cd lab2

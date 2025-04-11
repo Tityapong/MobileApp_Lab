@@ -51,5 +51,8 @@ dependencies {
     implementation("com.squareup.okhttp3:okhttp:4.9.3")
     implementation("com.squareup.okhttp3:logging-interceptor:4.9.3")
     implementation("androidx.security:security-crypto:1.1.0-alpha06")
+    implementation("androidx.preference:preference:1.1.1")
+
+
 
 }

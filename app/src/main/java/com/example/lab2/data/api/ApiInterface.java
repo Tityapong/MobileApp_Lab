@@ -2,6 +2,7 @@ package com.example.lab2.data.api;
 
 import com.example.lab2.data.api.model.AddExpenseRequest;
 import com.example.lab2.data.api.model.ApiResponse;
+import com.example.lab2.data.api.model.Category;
 import com.example.lab2.data.api.model.Expense;
 import com.example.lab2.data.api.model.LoginRequest;
 import com.example.lab2.data.api.model.RegisterRequest;
@@ -42,6 +43,13 @@ public interface ApiInterface {
 
     @GET("/api/user")
     Call<UserResponse> getUserInfo();
+
     @POST("/api/logout")
     Call<ApiResponse> logout();
+
+    @GET("/api/categories")
+    Call<List<Category>> getCategories();
+
+    @POST("/api/categories")
+    Call<ApiResponse> addCategory(@Body Category category);
 }

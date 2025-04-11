@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Application Info -->
+    <string name="app_name">កម្មវិធីតាមដានចំណាយ</string>
+    <string name="app_logo">App Logo</string>
+    <string name="enxpens_tracker">កម្មវិធីតាមដានចំណាយ</string>
+
+    <!-- General Text -->
+    <string name="amount">ចំនួន</string>
+    <string name="usd">ដុល្លារអាមេរិក</string>
+    <string name="khr">រៀល</string>
+    <string name="remark">ការកំណត់</string>
+    <string name="currency">រូបិយប័ណ្ណ:</string>
+    <string name="category">ប្រភេទ:</string>
+    <string name="expenses">ចំណាយ</string>
+    <string name="home">ទំព័រដើម</string>
+
+    <!-- Expense-related -->
+    <string name="category_hint">ជ្រើសរើសប្រភេទ</string>
+    <string name="add_category_description">បន្ថែមការពិពណ៌នា</string>
+    <string name="remark_hint">បញ្ចូលការកំណត់</string>
+    <string name="add_expense">បន្ថែមចំណាយ</string>
+    <string name="manage_your_expense_tityapong">គ្រប់គ្រងចំណាយរបស់អ្នក Tityapong</string>
+    <string name="my_last_expense_was_0">ចំណាយចុងក្រោយរបស់ខ្ញុំគឺ ០</string>
+    <string name="add_new_expense">បន្ថែមចំណាយថ្មី</string>
+    <string name="view_detail">មើលព័ត៌មានលម្អិត</string>
+    <string name="expense_details">ព័ត៌មានលម្អិតចំណាយ</string>
+
+    <!-- Login/Sign-in -->
+    <string name="sign_in">ចូល</string>
+    <string name="login">ចូល</string>
+    <string name="email">អ៊ីម៉ែល</string>
+    <string name="password">ពាក្យសម្ងាត់</string>
+    <string name="forgot_password">ភ្លេចពាក្យសម្ងាត់?</string>
+    <string name="login_here">ចូលទីនេះ</string>
+    <string name="welcome_msg">សូមស្វាគមន៍!</string>
+
+    <!-- Registration -->
+    <string name="create_account">បង្កើតគណនី</string>
+    <string name="full_name">ឈ្មោះពេញ</string>
+    <string name="phone_number">លេខទូរស័ព្ទ</string>
+    <string name="confirm_password">បញ្ជាក់ពាក្យសម្ងាត់</string>
+    <string name="register">ចុះបញ្ជី</string>
+    <string name="create_new_account">បង្កើតគណនីថ្មី</string>
+    <string name="forget_your_password">ភ្លេចពាក្យសម្ងាត់របស់អ្នក?</string>
+
+    <!-- Bottom/Alternate navigation -->
+
+    <string name="register_now">ចុះបញ្ជីឥឡូវនេះ</string>
+    <string name="already_have_account">មានគណនីរួចហើយ?</string>
+    <string name="login_now">ចូលឥឡូវនេះ</string>
+    <string name="create_an_account_so_you_can_explore_all_the_existing_jobs">បង្កើតគណនីដើម្បីអាចស្វែងរកការងារទាំងអស់ដែលមាន។</string>
+    <string name="language">ភាសា</string>
+    <string name="select_your_language">ជ្រើសរើសភាសារបស់អ្នក</string>
+
+
+
+    <!-- Categories Array -->
+    <string-array name="categories_array">
+        <item>@string/category_hint</item> <!-- Placeholder -->
+        <item>ម្ហូប</item>
+        <item>កម្សាន្ត</item>
+        <item>ដំណើរកម្សាន្ត</item>
+        <item>សេវាកម្ម</item>
+        <item>ផ្សេងៗ</item>
+    </string-array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">សួស្តី ពីបន្ទាប់</string>
+</resources>

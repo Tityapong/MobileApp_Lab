@@ -169,13 +169,12 @@ import android.os.Bundle;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentTransaction;
-import android.content.Intent;
-
 import com.example.lab2.databinding.ActivityHomeBinding;
 import com.example.lab2.fragment.AddExpenseFragment;
 import com.example.lab2.fragment.ExpenseListFragment;
 import com.example.lab2.fragment.HomeFragment;
-import com.example.lab2.fragment.ProfileFragment; // Import the new ProfileFragment
+import com.example.lab2.fragment.ProfileFragment;
+import com.example.lab2.fragment.SettingFragment; // Import the SettingFragment
 
 public class HomeActivity extends AppCompatActivity {
 
@@ -200,8 +199,10 @@ public class HomeActivity extends AppCompatActivity {
                 selectedFragment = new AddExpenseFragment();
             } else if (itemId == R.id.nav_expense_list) {
                 selectedFragment = new ExpenseListFragment();
-            } else if (itemId == R.id.nav_profile) { // Updated from nav_logout to nav_profile
-                selectedFragment = new ProfileFragment(); // Navigate to ProfileFragment
+            } else if (itemId == R.id.nav_profile) {
+                selectedFragment = new ProfileFragment();
+            } else if (itemId == R.id.nav_settings) { // Handle Settings item
+                selectedFragment = new SettingFragment(); // Navigate to SettingFragment
             }
 
             if (selectedFragment != null) {

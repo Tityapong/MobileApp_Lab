@@ -45,7 +45,7 @@
     <string name="forget_your_password">Forgot Your Password?</string>
 
     <!-- Bottom/Alternate navigation -->
-    <string name="no_account">Don\'t have an account?</string>
+
     <string name="register_now">Register Now</string>
     <string name="already_have_account">Already have an account?</string>
     <string name="login_now">Login Now</string>
@@ -60,6 +60,21 @@
         <item>Utilities</item>
         <item>Other</item>
     </string-array>
+
+    <!-- Language Entries (Names) -->
+    <string-array name="language_entries">
+        <item>English</item>
+        <item>Khmer</item>
+    </string-array>
+
+    <!-- Language Values (Codes) -->
+    <string-array name="language_values">
+        <item>en</item>
+        <item>km</item>
+    </string-array>
+
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="language">Language</string>
+    <string name="select_your_language">Select your language</string>
 </resources>
